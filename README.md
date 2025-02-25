@@ -9,7 +9,7 @@ driving questions:
 # 1. collect most popular live stream data from youtube and finetune stable diffusion models at runtime, saving checkpoints when desired. (https://github.com/totoroidsai/generate-live-stream-dataset)
    **why?** live stream content is highly competative for ERN yet generally more static and convenient to train faster for stable diffusion
    
-# 2. train by finetuning any stable diffusion model in RUNTIME => we want to capture the pixels from livestreams and while they are in memory, train the model, and then after enough time save the model checkpoint
+# 2. train by finetuning any stable diffusion model in RUNTIME => we want to capture the pixels from livestreams and while they are in memory, train the model, and then after enough time save the model checkpoint (https://github.com/totoroidsai/generate-live-stream-dataset/blob/main)
    **why?** a deliberate choice to always have a changing training set since live content is always changing, we only need to get a sense of where we are in the evolutionary process of that content
 
 # 3. generate unique agents for competition (https://github.com/totoroidsai/echomimic_crew_wrapper)
